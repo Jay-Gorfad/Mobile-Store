@@ -1,0 +1,75 @@
+User:
+-Home
+-header & footer including how would it look without login and with login
+-ordered successfully page
+
+
+-optional
+    -empty cart
+    -empty wishlist and wishlist
+
+
+----------------------------------------------------------------------
+
+-login, register ,Forget password, enter otp page
+-contact us 
+-product details
+    -need some changes
+-my profile 
+    -main menu item is not highlighted when other than 1st menuitem is active
+    -not responsive properly
+-checkout
+    -add animation when shipping details open up
+    -fix the styling of the line between shipping details and billing details
+    -change the color of the tick mark when it is checked
+-cart page
+-my orders
+-Product
+    -make like button interactive
+    -change some styles
+-order-details
+    -make it responsive
+
+
+
+------------------------------------------------------------------------
+Admin:
+-dashboard
+
+
+--------------------------------------------------------------
+
+
+-add particular product page
+-add particular user page
+-profile management and field
+    -update own login info
+    -contact page number and email field display update
+    -change site's name
+
+-user management
+    -add user
+    -update user info & delete user
+    -display users
+
+-review management
+    -display reviews & delete review
+
+-order management
+    -update order status
+    -display orders -delete included
+    -display order details
+-display contact responses
+    -delete responses
+-product management
+    -add product
+    -update product
+    -display product -delete included
+
+-category management
+    -add category
+    -update category
+    -display category -delete category
+-login
+-register
+-password
