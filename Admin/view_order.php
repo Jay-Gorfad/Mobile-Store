@@ -6,7 +6,7 @@
                 <div>
                     <h1>View Order</h1>
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="Index.php">Dashboard</a></li>
                         <li class="breadcrumb-item"><a href="orders.php">Orders</a></li>
                         <li class="breadcrumb-item active">View Order</li>
                     </ol>
@@ -93,33 +93,33 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img src="path_to_image1.jpg" alt="Item 1" width="50"></td>
-                                <td>Item 1</td>
-                                <td>₹10.00</td>
-                                <td>2</td>
-                                <td>₹20.00</td>
+                                <td><img src="image/1.jpg" alt="Item 1" width="50"></td>
+                                <td>i phone 14</td>
+                                <td>₹1,20,000</td>
+                                <td>1</td>
+                                <td>₹1,20,000</td>
                             </tr>
                             <tr>
-                                <td><img src="path_to_image2.jpg" alt="Item 2" width="50"></td>
-                                <td>Item 2</td>
-                                <td>₹15.00</td>
+                                <td><img src="image/10.jpg" alt="Item 2" width="50"></td>
+                                <td>Samsung</td>
+                                <td>₹1,50,000</td>
                                 <td>1</td>
-                                <td>₹15.00</td>
+                                <td>₹1,50,000</td>
                             </tr>
                             <!-- Add more items as needed -->
                         </tbody>
                         <tfoot>
                             <tr>
                                 <th colspan="4" class="text-end">Subtotal:</th>
-                                <td>₹35.00</td>
+                                <td>₹2,70,000</td>
                             </tr>
                             <tr>
                                 <th colspan="4" class="text-end">Shipping Charge:</th>
-                                <td>₹5.00</td>
+                                <td>₹200</td>
                             </tr>
                             <tr>
                                 <th colspan="4" class="text-end">Total:</th>
-                                <td>₹40.00</td>
+                                <td>₹2,70,200</td>
                             </tr>
                         </tfoot>
                     </table>

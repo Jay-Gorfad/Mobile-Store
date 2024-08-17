@@ -6,7 +6,7 @@
                 <div>
                     <h1>User Management</h1>
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="Index.php">Dashboard</a></li>
                         <li class="breadcrumb-item active">Users</li>
                     </ol>
                 </div>
@@ -28,9 +28,9 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>John Doe</td>
-                            <td>johndoe@example.com</td>
-                            <td>123-456-7890</td>
+                            <td>Jay Barasiya</td>
+                            <td>jay23@gmail.com</td>
+                            <td>123456789</td>
                             <td>Active</td>
                             <td>
                                 <a href="user_profile.php?id=1" class="btn btn-info btn-sm">View</a>
@@ -40,9 +40,9 @@
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>Jane Smith</td>
-                            <td>janesmith@example.com</td>
-                            <td>987-654-3210</td>
+                            <td>Jay Gorfad</td>
+                            <td>jay24@gmail.com</td>
+                            <td>987654321</td>
                             <td>Inactive</td>
                             <td>
                                 <a href="user_profile.php?id=2" class="btn btn-info btn-sm">View</a>
@@ -51,10 +51,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>John Doe</td>
-                            <td>johndoe@example.com</td>
-                            <td>123-456-7890</td>
+                            <td>3</td>
+                            <td>Yagnik Desai</td>
+                            <td>yagnik25@gmail.com</td>
+                            <td>147852369</td>
                             <td>Active</td>
                             <td>
                                 <a href="user_profile.php?id=1" class="btn btn-info btn-sm">View</a>
@@ -62,90 +62,7 @@
                                 <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deactivateModal" data-user-id="1">Deactivate</button>
                             </td>
                         </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Jane Smith</td>
-                            <td>janesmith@example.com</td>
-                            <td>987-654-3210</td>
-                            <td>Inactive</td>
-                            <td>
-                                <a href="user_profile.php?id=2" class="btn btn-info btn-sm">View</a>
-                                <a href="update_user.php?id=2" class="btn btn-warning btn-sm">Edit</a>
-                                <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#activateModal" data-user-id="2">Activate</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>John Doe</td>
-                            <td>johndoe@example.com</td>
-                            <td>123-456-7890</td>
-                            <td>Active</td>
-                            <td>
-                                <a href="user_profile.php?id=1" class="btn btn-info btn-sm">View</a>
-                                <a href="update_user.php?id=1" class="btn btn-warning btn-sm">Edit</a>
-                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deactivateModal" data-user-id="1">Deactivate</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Jane Smith</td>
-                            <td>janesmith@example.com</td>
-                            <td>987-654-3210</td>
-                            <td>Inactive</td>
-                            <td>
-                                <a href="user_profile.php?id=2" class="btn btn-info btn-sm">View</a>
-                                <a href="update_user.php?id=2" class="btn btn-warning btn-sm">Edit</a>
-                                <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#activateModal" data-user-id="2">Activate</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>John Doe</td>
-                            <td>johndoe@example.com</td>
-                            <td>123-456-7890</td>
-                            <td>Active</td>
-                            <td>
-                                <a href="user_profile.php?id=1" class="btn btn-info btn-sm">View</a>
-                                <a href="update_user.php?id=1" class="btn btn-warning btn-sm">Edit</a>
-                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deactivateModal" data-user-id="1">Deactivate</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Jane Smith</td>
-                            <td>janesmith@example.com</td>
-                            <td>987-654-3210</td>
-                            <td>Inactive</td>
-                            <td>
-                                <a href="user_profile.php?id=2" class="btn btn-info btn-sm">View</a>
-                                <a href="update_user.php?id=2" class="btn btn-warning btn-sm">Edit</a>
-                                <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#activateModal" data-user-id="2">Activate</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>John Doe</td>
-                            <td>johndoe@example.com</td>
-                            <td>123-456-7890</td>
-                            <td>Active</td>
-                            <td>
-                                <a href="user_profile.php?id=1" class="btn btn-info btn-sm">View</a>
-                                <a href="update_user.php?id=1" class="btn btn-warning btn-sm">Edit</a>
-                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deactivateModal" data-user-id="1">Deactivate</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Jane Smith</td>
-                            <td>janesmith@example.com</td>
-                            <td>987-654-3210</td>
-                            <td>Inactive</td>
-                            <td>
-                                <a href="user_profile.php?id=2" class="btn btn-info btn-sm">View</a>
-                                <a href="update_user.php?id=2" class="btn btn-warning btn-sm">Edit</a>
-                                <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#activateModal" data-user-id="2">Activate</button>
-                            </td>
-                        </tr>
+                      
                     </tbody>
                 </table>
             </div>

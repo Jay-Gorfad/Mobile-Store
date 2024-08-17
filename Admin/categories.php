@@ -6,7 +6,7 @@
                             <div>
                                 <h1>Categories</h1>
                                 <ol class="breadcrumb mb-0">
-                                    <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+                                    <li class="breadcrumb-item"><a href="Index.php">Dashboard</a></li>
                                     <li class="breadcrumb-item active">Categories</li>
                                 </ol>
                             </div>
@@ -26,9 +26,9 @@
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>Bakery</td>
-                                        <td>None</td>
-                                        <td>5</td>
+                                        <td>Apple</td>
+                                        <td>Phone</td>
+                                        <td>6</td>
                                         <td>
                                             <a class="btn btn-success btn-sm" href="update-category.php">Edit</a>
                                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
@@ -36,9 +36,9 @@
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>Pastries</td>
-                                        <td>Bakery</td>
-                                        <td>10</td>
+                                        <td>Samsung</td>
+                                        <td>phone</td>
+                                        <td>5</td>
                                         <td>
                                             <a class="btn btn-success btn-sm" href="update-category.php">Edit</a>
                                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
@@ -46,79 +46,9 @@
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td>Cakes</td>
-                                        <td>Bakery</td>
-                                        <td>15</td>
-                                        <td>
-                                            <a class="btn btn-success btn-sm" href="update-category.php">Edit</a>
-                                            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Bakery</td>
-                                        <td>None</td>
-                                        <td>5</td>
-                                        <td>
-                                            <a class="btn btn-success btn-sm" href="update-category.php">Edit</a>
-                                            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>Bakery</td>
-                                        <td>None</td>
-                                        <td>5</td>
-                                        <td>
-                                            <a class="btn btn-success btn-sm" href="update-category.php">Edit</a>
-                                            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
+                                        <td>Realme</td>
+                                        <td>Phone</td>
                                         <td>6</td>
-                                        <td>Bakery</td>
-                                        <td>None</td>
-                                        <td>5</td>
-                                        <td>
-                                            <a class="btn btn-success btn-sm" href="update-category.php">Edit</a>
-                                            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>Bakery</td>
-                                        <td>None</td>
-                                        <td>5</td>
-                                        <td>
-                                            <a class="btn btn-success btn-sm" href="update-category.php">Edit</a>
-                                            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>Bakery</td>
-                                        <td>None</td>
-                                        <td>5</td>
-                                        <td>
-                                            <a class="btn btn-success btn-sm" href="update-category.php">Edit</a>
-                                            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>Bakery</td>
-                                        <td>None</td>
-                                        <td>5</td>
-                                        <td>
-                                            <a class="btn btn-success btn-sm" href="update-category.php">Edit</a>
-                                            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>Bakery</td>
-                                        <td>None</td>
-                                        <td>5</td>
                                         <td>
                                             <a class="btn btn-success btn-sm" href="update-category.php">Edit</a>
                                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>

@@ -3,7 +3,7 @@
     <div class="container-fluid px-4">
         <h1 class="mt-4">Update Product</h1>
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+            <li class="breadcrumb-item"><a href="Index.php">Dashboard</a></li>
             <li class="breadcrumb-item active">Update Product</li>
         </ol>
 
@@ -47,23 +47,6 @@
                                 <input type="number" class="form-control" id="productStock" name="product_stock" required>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <label for="productCategory" class="form-label">Category</label>
-                                <select class="form-select" id="productCategory" name="product_category" required>
-                                    <option value="" disabled selected>Select a category</option>
-                                    <option value="Fruits and Vegetables">Fruits and Vegetables</option>
-                                    <option value="Dairy and Eggs">Dairy and Eggs</option>
-                                    <option value="Bakery">Bakery</option>
-                                    <option value="Beverages">Beverages</option>
-                                    <option value="Snacks">Snacks</option>
-                                    <option value="Personal Care">Personal Care</option>
-                                    <option value="Household Supplies">Household Supplies</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="row">
                         <div class="col-md-12">
                             <div class="mb-3">

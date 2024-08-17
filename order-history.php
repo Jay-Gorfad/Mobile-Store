@@ -2,7 +2,7 @@
     <div class="container sitemap cart-table">
         <p class="my-5"><a href="index.php" class="text-decoration-none dim link">Home /</a> Orders</p>
         <!-- table start -->
-        <div class="row">
+        <div class="row bg-light">
             <div class="col-2">
                 Order ID
             </div>
@@ -24,7 +24,7 @@
     function display_orders(){
         for($i=1;$i<=5;$i++){
             echo '
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-2">
                     123
                 </div>

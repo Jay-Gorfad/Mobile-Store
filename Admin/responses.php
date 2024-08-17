@@ -6,7 +6,7 @@
                 <div>
                     <h1>Responses</h1>
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="Index.php">Dashboard</a></li>
                         <li class="breadcrumb-item active">Responses</li>
                     </ol>
                 </div>
@@ -24,9 +24,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>JohnDoe</td>
-                            <td>johndoe@example.com</td>
-                            <td>123-456-7890</td>
+                            <td>Smith</td>
+                            <td>smith21@gmail.com</td>
+                            <td>7845123265</td>
                             <td>This is a sample message.</td>
                             <td>
                                 <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#replyModal">Reply</button>
@@ -34,9 +34,9 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>JohnDoe</td>
-                            <td>johndoe@example.com</td>
-                            <td>123-456-7890</td>
+                            <td>John</td>
+                            <td>john5@gmail.com</td>
+                            <td>7889564512</td>
                             <td>This is a sample message.</td>
                             <td>
                                 <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#replyModal">Reply</button>
@@ -44,9 +44,19 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>JohnDoe</td>
-                            <td>johndoe@example.com</td>
-                            <td>123-456-7890</td>
+                            <td>Jay</td>
+                            <td>jay23@gmail.com</td>
+                            <td>2312455689</td>
+                            <td>This is a sample message.</td>
+                            <td>
+                                <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#replyModal">Reply</button>
+                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Karan</td>
+                            <td>karan55@gmail.com</td>
+                            <td>5214789632</td>
                             <td>This is a sample message.</td>
                             <td>
                                 <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#replyModal">Reply</button>

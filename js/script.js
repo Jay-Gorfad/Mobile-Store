@@ -1,26 +1,21 @@
 
-
-// account page
-const menuItems = document.querySelectorAll('.menu-item');
-menuItems.forEach(menuItem=>{
+document.addEventListener('DOMContentLoaded', function() {
+    const qtyInput = document.getElementById('quantity');
+    const qtyMinus = document.querySelector('.qty-minus');
+    const qtyPlus = document.querySelector('.qty-plus');
     
-    menuItem.addEventListener('click',function(){
-        const id = this.dataset.id;
-        document.querySelector('#'+id).classList.remove('invisible');
-        this.classList.add('active');
-        menuItems.forEach(menuItem2=>{
-        menuItem2.classList.add('active');
-            if(id!=menuItem2.dataset.id){
-                document.querySelector('#'+menuItem2.dataset.id).classList.add('invisible'); 
-                menuItem2.classList.remove('active');
-            }
-        });
+    qtyMinus.addEventListener('click', function() {
+        let currentValue = parseInt(qtyInput.value, 10);
+        if (currentValue > 1) {
+            qtyInput.value = currentValue - 1;
+        }
+    });
+
+    qtyPlus.addEventListener('click', function() {
+        let currentValue = parseInt(qtyInput.value, 10);
+        qtyInput.value = currentValue + 1;
     });
 });
-//for printing my profile section by default on account page
-const profile = document.querySelector('#my-profile');
-if(profile)
-    profile.classList.remove('invisible');
 
 
 //checkout page - different shipping address feature
@@ -75,46 +70,3 @@ if(quantityModifier && quantityModifier.length>0){
         });
     });
 }
-
-// product details page
-function selectQuantity(selectedDiv, value) {
-    const quantities = document.querySelectorAll('.quantity div');
-    quantities.forEach(div => {
-        div.classList.remove('selected');
-    });
-    selectedDiv.classList.add('selected');
-    document.getElementById('selectedQuantity').value = value;
-}
-
-gsap.to("#navibar",{
-    backgroundColor : '#3ED48E',
-    duration:0.1,
-    scrollTrigger:{
-        trigger:'#navibar',
-        scroll:'body',
-        start:'6%',
-        end:'5%',
-        scrub:1,
-    }
-})
-gsap.to("nav .nav-link , .active, .logo ",{
-    color:"#fff",
-    scrollTrigger:{
-        scroll:'body',
-        start:'2%',
-        end:'1%',
-        scrub:1,
-    }
-})
-
-gsap.to(".btn",{
-    backgroundColor:"#fff",
-    color:"#198754",
-    borderColor:"#fff",
-    scrollTrigger:{
-        scroll:'body',
-        start:'2%',
-        end:'1%',
-        scrub:1,
-    }
-})

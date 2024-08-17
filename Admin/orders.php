@@ -6,7 +6,7 @@
                 <div>
                     <h1>Order Management</h1>
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="Index.php">Dashboard</a></li>
                         <li class="breadcrumb-item active">Orders</li>
                     </ol>
                 </div>
@@ -27,12 +27,12 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1001</td>
-                            <td><a href="user_profile.php?username=JohnDoe">John Doe</a></td>
-                            <td>2024-08-10</td>
-                            <td>2</td>
-                            <td>$50.00</td>
-                            <td>Credit Card</td>
+                            <td>1021</td>
+                            <td>prince</td>
+                            <td>2024-06-15</td>
+                            <td>1</td>
+                            <td>₹1,20,000</td>
+                            <td>Case On Delivery</td>
                             <td>
                                 <select class="form-select form-select-sm">
                                     <option value="Pending" selected>Pending</option>
@@ -49,12 +49,12 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>1002</td>
-                            <td>Jane Smith</td>
-                            <td>2024-08-11</td>
-                            <td>3</td>
-                            <td>$75.00</td>
-                            <td>PayPal</td>
+                            <td>2125</td>
+                            <td>Smith</td>
+                            <td>2024-07-20</td>
+                            <td>2</td>
+                            <td>₹2,40,000</td>
+                            <td>Case On Delivery</td>
                             <td>
                                 <select class="form-select form-select-sm">
                                     <option value="Pending">Pending</option>
@@ -71,12 +71,12 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>1003</td>
-                            <td>Emily Johnson</td>
-                            <td>2024-08-12</td>
+                            <td>2425</td>
+                            <td>Johnson</td>
+                            <td>2024-08-1</td>
                             <td>1</td>
-                            <td>$25.00</td>
-                            <td>Bank Transfer</td>
+                            <td>₹1,50,000</td>
+                            <td>Bank</td>
                             <td>
                                 <select class="form-select form-select-sm">
                                     <option value="Pending">Pending</option>
@@ -93,11 +93,33 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>1004</td>
-                            <td>Michael Brown</td>
-                            <td>2024-08-13</td>
-                            <td>4</td>
-                            <td>$100.00</td>
+                            <td>3023</td>
+                            <td>jay</td>
+                            <td>2024-06-1</td>
+                            <td>1</td>
+                            <td>₹1,20,000</td>
+                            <td>Cash on Delivery</td>
+                            <td>
+                                <select class="form-select form-select-sm">
+                                    <option value="Pending">Pending</option>
+                                    <option value="Processing">Processing</option>
+                                    <option value="Shipped">Shipped</option>
+                                    <option value="Delivered" selected>Delivered</option>
+                                    <option value="Cancelled">Cancelled</option>
+                                </select>
+                            </td>
+                            <td>
+                                <a href="view_order.php?id=1004" class="btn btn-info btn-sm">View</a>
+                                <button class="btn btn-primary btn-sm">Save</button>
+                                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3045</td>
+                            <td>karan</td>
+                            <td>2024-07-7</td>
+                            <td>2</td>
+                            <td>₹2,40,000</td>
                             <td>Cash on Delivery</td>
                             <td>
                                 <select class="form-select form-select-sm">
