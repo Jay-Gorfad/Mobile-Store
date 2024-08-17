@@ -37,6 +37,7 @@
                                         <td>50</td>
                                         <td>i phone</td> 
                                         <td>
+                                            <a class="btn btn-info btn-sm" href="view_product.php">View</a>
                                             <a class="btn btn-success btn-sm" href="update-product.php">Update</a>
                                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
                                         </td>
@@ -52,7 +53,8 @@
                                         <td>14</td>
                                         <td>Samsung</td> 
                                         <td>
-                                            <button class="btn btn-success btn-sm">Update</button>
+                                            <a class="btn btn-info btn-sm" href="view_product.php">View</a>
+                                            <a class="btn btn-success btn-sm" href="update-product.php">Update</a>
                                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
                                         </td>
                                     </tr>
@@ -67,6 +69,7 @@
                                         <td>50</td>
                                         <td>i phone</td> 
                                         <td>
+                                            <a class="btn btn-info btn-sm" href="view_product.php">View</a>
                                             <a class="btn btn-success btn-sm" href="update-product.php">Update</a>
                                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
                                         </td>
@@ -82,7 +85,8 @@
                                         <td>14</td>
                                         <td>Samsung</td> 
                                         <td>
-                                            <button class="btn btn-success btn-sm">Update</button>
+                                            <a class="btn btn-info btn-sm" href="view_product.php">View</a>
+                                            <a class="btn btn-success btn-sm" href="update-product.php">Update</a>
                                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
                                         </td>
                                     </tr>
@@ -97,7 +101,8 @@
                                         <td>9</td>
                                         <td>i phone</td> 
                                         <td>
-                                            <button class="btn btn-success btn-sm">Update</button>
+                                            <a class="btn btn-info btn-sm" href="view_product.php">View</a>
+                                            <a class="btn btn-success btn-sm" href="update-product.php">Update</a>
                                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
                                         </td>
                                     </tr>
