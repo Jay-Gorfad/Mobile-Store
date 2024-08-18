@@ -9,11 +9,19 @@
                     <div class="mb-3 w-75 text-center">
                         <h2 class="mb-3">Create an account</h2>
                         <div class="mb-4 ">Enter your details below</div>
-                        <form action="">
-                            <input type="text" class="w-100 mb-4" placeholder="Name">
-                            <input type="text" class="w-100 mb-4" placeholder="Email">
-                            <input type="text" class="w-100 mb-4" placeholder="Password">
-                            <input type="text" class="w-100 mb-4" placeholder="Confirm Password">
+                        <form id="registrationForm" action="login.php" onsubmit="return validateRegistrationForm();">
+                            <input type="text" id="name" class="w-100 mb-3" placeholder="Name">
+                            <p id="nameError" class="error mb-2"></p>
+
+                            <input type="text" id="email" class="w-100 mb-3" placeholder="Email">
+                            <p id="emailError" class="error mb-2"></p>
+
+                            <input type="text" id="password" class="w-100 mb-3" placeholder="Password">
+                            <p id="passwordError" class="error mb-2"></p>
+
+                            <input type="text" id="confirmPassword" class="w-100 mb-3" placeholder="Confirm Password">
+                            <p id="confirmPasswordError" class="error mb-2"></p>
+
                             <input type="submit" value="Create an account" class="btn-msg w-100">
                             <div class="mt-4 text-center">
                                 Already have an account?<a href="login.php" class="dim link ms-2">Log in</a>

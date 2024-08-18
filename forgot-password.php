@@ -9,8 +9,9 @@
                     <div class="mb-3 w-75 text-center">
                         <h2 class="mb-3">Forgot Password?</h2>
                         <div class="mb-4 ">Enter an email account to reset password</div>
-                        <form action="otp-page.php">
-                            <input type="text" class="w-100 mb-4" placeholder="Email">
+                        <form action="otp-page.php" onsubmit="return validateForgotPasswordForm()">
+                            <input type="text" id="otpEmail" class="w-100 mb-3" placeholder="Email">
+                            <p id="otpEmailError" class="error mb-2"></p>
                             <input type="submit" value="Send OTP" class="btn-msg w-100">
                             <div class="mt-4 text-center">
                                 <a href="login.php" class="dim link ms-2">Back to log in</a>

@@ -9,9 +9,11 @@
         <div class="mb-4 w-75 text-center">
             <h2 class="mb-3">Log in</h2>
             <p class="mb-4 text-muted">Enter your details below</p>
-            <form action="">
-                <input type="text" class="form-control mb-3" placeholder="Email or Phone Number">
-                <input type="text" class="form-control mb-4" placeholder="Password">
+            <form id="loginForm" action="" onsubmit="return validateLoginForm();">
+                <input type="text" id="loginEmail" class="form-control mb-3" placeholder="Email">
+                <p id="loginEmailError" class="error mb-4"></p>
+                <input type="text" id="loginPassword" class="form-control mb-4" placeholder="Password">
+                <p id="loginPasswordError" class="error mb-4"></p>
                 <input type="submit" value="Log in" class="btn-msg w-100">
                 <!-- <button type="submit" class="btn btn-primary w-100 mb-2">Log in</button> -->
                 <div class="mt-4 text-center">

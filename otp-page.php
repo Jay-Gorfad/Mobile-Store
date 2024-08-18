@@ -9,8 +9,9 @@
                     <div class="mb-3 w-75 text-center">
                         <h2 class="mb-3">Enter OTP</h2>
                         <div class="mb-4 ">Enter the OTP we sent you in email</div>
-                        <form action="index.php">
-                            <input type="number" class="w-100 mb-4" placeholder="OTP">
+                        <form id="otpForm" action="index.php" onsubmit="return validateOtpForm();">
+                            <input type="number" id="otp" class="w-100 mb-3" placeholder="OTP">
+                            <p id="otpError" class="error  mb-2"></p>
                             <input type="submit" value="Verify" class="btn-msg w-100">
                             <div class="mt-4 text-center">
                                 <a href="login.php" class="dim link ms-2">Back to log in</a>
