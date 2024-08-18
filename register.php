@@ -6,9 +6,9 @@
             </div>
             <div class="col-md-6">
                 <div class="login-form d-flex flex-column d-flex justify-content-center h-100 align-items-center">
-                    <div class="mb-3 w-75 text-center">
-                        <h2 class="mb-3">Create an account</h2>
-                        <div class="mb-4 ">Enter your details below</div>
+                    <div class="mb-3 w-75">
+                        <h2 class="mb-3 text-center">Create an account</h2>
+                        <div class="mb-4 text-center">Enter your details below</div>
                         <form id="registrationForm" action="login.php" onsubmit="return validateRegistrationForm();">
                             <input type="text" id="name" class="w-100 mb-3" placeholder="Name">
                             <p id="nameError" class="error mb-2"></p>

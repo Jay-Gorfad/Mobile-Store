@@ -6,9 +6,9 @@
             </div>
             <div class="col-md-6">
                 <div class="login-form d-flex flex-column d-flex justify-content-center h-100 align-items-center">
-                    <div class="mb-3 w-75 text-center">
-                        <h2 class="mb-3">Enter OTP</h2>
-                        <div class="mb-4 ">Enter the OTP we sent you in email</div>
+                    <div class="mb-3 w-75">
+                        <h2 class="mb-3 text-center">Enter OTP</h2>
+                        <div class="mb-4 text-center">Enter the OTP we sent you in email</div>
                         <form id="otpForm" action="index.php" onsubmit="return validateOtpForm();">
                             <input type="number" id="otp" class="w-100 mb-3" placeholder="OTP">
                             <p id="otpError" class="error  mb-2"></p>

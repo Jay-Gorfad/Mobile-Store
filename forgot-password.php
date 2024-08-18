@@ -6,9 +6,9 @@
             </div>
             <div class="col-md-6">
                 <div class="login-form d-flex flex-column d-flex justify-content-center h-100 align-items-center">
-                    <div class="mb-3 w-75 text-center">
-                        <h2 class="mb-3">Forgot Password?</h2>
-                        <div class="mb-4 ">Enter an email account to reset password</div>
+                    <div class="mb-3 w-75">
+                        <h2 class="mb-3 text-center">Forgot Password?</h2>
+                        <div class="mb-4 text-center">Enter an email account to reset password</div>
                         <form action="otp-page.php" onsubmit="return validateForgotPasswordForm()">
                             <input type="text" id="otpEmail" class="w-100 mb-3" placeholder="Email">
                             <p id="otpEmailError" class="error mb-2"></p>
