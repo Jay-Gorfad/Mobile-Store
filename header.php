@@ -17,7 +17,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="logo navbar-brand fs-1 fw-bold" href="index.php">Mobile Shop</a>
+                <a class="logo navbar-brand fs-1 fw-bold" href="index.php">MobiTrendz</a>
                 <ul class="links navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.php">Home</a>

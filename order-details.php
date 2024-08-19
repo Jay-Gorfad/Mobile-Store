@@ -73,7 +73,7 @@
         <?php for ($i = 1; $i <= 3; $i++): ?>
         <div class="row item-list border-bottom py-2">
             <div class="col-4 p-0">
-                <img src="img/products/phone.png" alt="Chocolate image" class="image-item d-inline-block">
+                <img src="img/products/15Plus.jpg" alt="Chocolate image" class="image-item d-inline-block">
                 <div class="d-inline-block ms-2">Phone</div>
             </div>
             <div class="col-2 text-center">2</div>
