@@ -19,7 +19,7 @@
         <div class="row mt-5">
             <div class="col-md-6 col-12 ps-2 pe-2">
                 <div class="border ms-0 banner-1">
-                    <p class="label-red">Free delivery</p>
+                    <p class="label-yellow">Free delivery</p>
                     <h5 class="heading">Free shipping over ₹500</h5>
                     <p class="content">Shop ₹500 products and get free delivery anywhere</p>
                     <button class="primary-btn">Shop Now <i class='fas fa-arrow-right ms-2'></i></button>
@@ -27,7 +27,7 @@
             </div>
             <div class="col-md-6 col-12 pe-2 ps-2">
                 <div class="border banner-2">
-                    <p class="label-red">60% off</p>
+                    <p class="label-yellow">60% off</p>
                     <h5 class="heading">Mobile Phones</h5>
                     <p class="content">Save up to 60% off on your first order</p>
                     <button class="primary-btn">Order Now <i class='fas fa-arrow-right ms-2'></i></button>
@@ -36,8 +36,7 @@
         </div>
         <div class="d-flex justify-content-between align-items-center featured-products mt-5">
             <div class="d-flex align-items-center gap-5">
-                <h4 >Daily Best Sales</h4>
-                <div class="label-red">Expires in: 10:56:21</div>
+                <h4 >Latest Released</h4>
             </div>
 
         </div>
@@ -55,22 +54,16 @@
                 <div class="card">
                     <div class="product-image">
                         <img class="img-thumbnail p-4" src="img/products/15Plus.jpg" alt="Card image cap">
-                        <div class="like"><i class="fa-regular fa-heart"></i></div>
-                        ';
-                        if($i % 3 == 0) {
-                            echo '<div class="label">New</div>';
-                        }
-                        echo '
                     </div>
-                    <div class="card-body product-body px-3">
-                        <h6 class="card-title">Phone</h6>
-                        <div class="d-flex justify-content-between align-items-end mb-2">
+                    <div class="card-body product-body px-3 ">
+                        <h6 class="card-title d-flex justify-content-center">Phone</h6>
+                        <div class="d-flex justify-content-center align-items-end mb-2 w-100">
                             <div>
                                 <span class="price">₹100.00</span>
                                 <span class="striked-price">₹150.00</span>
                             </div>
                         </div>
-                        <div class="rating-section mb-2">
+                        <div class="rating-section mb-2 d-flex justify-content-center">
                             <div class="ratings">
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -80,7 +73,11 @@
                             </div>
                             <div class="review-count ps-1">(95)</div>
                         </div>
-                        <a class="order-link cart-btn" href="cart.php"><i class="fa-solid fa-cart-shopping pe-2"></i>Add to cart</a>
+                        <div class="d-flex align-items-center justify-content-around ">
+                            <div class="like"><i class="fa-regular fa-heart"></i></div>
+                            <a class="order-link cart-btn flex-grow-1" href="cart.php">Add to cart</a>
+                            <div class="like"><i class="fa-regular fa-eye"></i></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -95,13 +92,6 @@
                 <div class="card">
                     <div class="product-image">
                         <img class="img-thumbnail p-4" src="img/products/15Plus.jpg" alt="Card image cap">
-                        <div class="like"><i class="fa-regular fa-heart"></i></div>
-                        ';
-                        if($i%3==0){
-                            echo '<div class="label">Save 5%</div>';
-                        }
-                        echo 
-                        '
                         <!--<button class=" primary-btn">Add to cart</button>-->
                     </div>
                     <div class="card-body product-body px-3">
@@ -123,7 +113,10 @@
                             </div>
                         </div>
                         <div class="sold">Sold: 20/50</div>
-                        <a class=" order-link d-block cart-btn" href="cart.php"><i class="fa-solid fa-cart-shopping pe-2"></i>Add to cart</a>
+                        <div class="d-flex align-items-center">
+                            <div class="like me-2"><i class="fa-regular fa-heart"></i></div>
+                            <a class=" order-link d-block cart-btn  flex-grow-1" href="cart.php"><i class="fa-solid fa-cart-shopping pe-2"></i>Add to cart</a>
+                        </div>
                     </div>
                 </div>
             </div>

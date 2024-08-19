@@ -4,11 +4,12 @@
     --dim: #6c6c6c; 
     --form-bg: #f5f5f5; 
     --form: #8c8c8c;
-    --primary:#db4444;
+    --primary:#0D4FCF;
     --delete: #d9534f; 
     --form-label: #6c757d; 
     --secondary: #f8d7da; 
     --discount: #00cc66; 
+    --hover:#FDD330;
 }
 *{
     margin: 0;
@@ -123,6 +124,13 @@ input[type="number"] {
     border-radius: 3px;
     font-size: 14px;
     font-weight: 300;
+    transition: background-color 0.25s;
+}
+.cart-btn:hover{
+    background-color: #202020;
+}
+.none{
+    display:none;
 }
 .product-body .sold{
     font-size:13px;
@@ -199,7 +207,15 @@ input[type="number"] {
 .hero .content {
     max-width: 50%;
 }
-
+.label-yellow{
+    background-color: var(--hover);
+    color:white;
+    border-radius: 3px 0px;
+    font-size: 15px;
+    padding: 8px 12px;
+    display:inline;
+    height: 100%;
+}
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -211,7 +227,7 @@ input[type="number"] {
 }
 
 .hero .cta-button {
-    background-color: #db4444;
+    background-color: var(--primary);
     color: #fff;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -222,7 +238,7 @@ input[type="number"] {
 }
 
 .hero .cta-button:hover {
-    background-color: #b52d2d;
+    background-color: blue;
 }
 
 .image{
@@ -367,9 +383,8 @@ input[type="number"] {
 
 .form input[type="text"], textarea {
     padding: 14px;
-    background-color: var(--form-bg);
-    border: 1px solid var(--border);
-    border-radius: 6px;
+    border: 1px solid grey;
+    border-radius: 3px;
     font-size: 16px;
     width: 100%;
     box-sizing: border-box;
@@ -618,7 +633,6 @@ input[type="submit"], button {
 
 
 
-
 .product-body .category-name {
     color: var(--dim);
     font-size: 13px;
@@ -654,13 +668,17 @@ input[type="submit"], button {
     padding-left: 8px;
 }
 
-.product-body .primary-btn, .like {
+.product-body .primary-btn{
     color: var(--primary);
     background-color: var(--secondary);
     transition: background-color 0.15s, color 0.15s;
 }
+.like {
+    color:black;
+    font-size: 25px;
+}
 
-.product-body .primary-btn:hover, .like:hover {
+.product-body .primary-btn:hover{
     color: white;
     background-color: var(--primary);
 }
@@ -699,18 +717,13 @@ input[type="submit"], button {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    right: 10px;
-    top: 10px;
     font-size: 17px;
     cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+}
+.like:hover{
+    color:var(--primary);
 }
 
-.product-image:hover .like {
-    opacity: 1;
-}
 
 .product-image .label {
     background-color: var(--discount);
@@ -736,9 +749,6 @@ input[type="submit"], button {
     margin-top: 10px;
 }
 
-.cart-btn:hover {
-    background-color: var(--primary);
-}
 
 .order-link {
     text-decoration: none;
@@ -843,6 +853,9 @@ input[type="submit"], button {
 .cart-btn{
     color:white;
     background-color: var(--primary);
+    border-radius: 20px;
+    font-weight: 400;
+    padding:10px;
 }
 .order-link{
     text-decoration: none;
@@ -1024,3 +1037,6 @@ input[type="submit"], button {
 }
 
 
+.hover{
+    background-color: var(--hover);
+}

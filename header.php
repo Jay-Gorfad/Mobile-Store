@@ -32,9 +32,9 @@
                         <a class="nav-link" href="order-history.php">Orders</a>
                     </li>
                 </ul>
-                <form class="d-flex justify-content-end">
-                    <a class="btn btn-danger me-2" href="register.php">Register</a>
-                    <a class="btn btn-outline-danger" href="login.php">Login</a>
+                <form class="d-flex justify-content-end font-bold">
+                    <a class="primary-btn me-2  checkout-link" href="register.php">Register</a>
+                    <a class="checkout-link  primary-btn" href="login.php">Login</a>
                 </form>
 
             </div>
