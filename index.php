@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php $title="Home";include('header.php'); ?>
 
     <div class="hero">
         <div class="content ms-5 ps-5">

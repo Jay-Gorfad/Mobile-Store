@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php $title="Shop";include('header.php'); ?>
 <div class="container sitemap">
     <p class="my-5"><a href="index.php" class="text-decoration-none highlight link">Home /</a> Shop</p>
     <div class="row justify-content-start">
