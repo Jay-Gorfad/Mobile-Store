@@ -106,4 +106,71 @@
             </div>
         </div>
     </div>
-<?php include('footer.php'); ?>
+    <div class="container my-5">
+        <h4 class="mb-4 text-center fw-bold">Customer Reviews</h4>
+        <div class="row d-flex">
+            <?php display_review();?>
+        </div>
+
+        <div class="text-end mt-2">
+            <button class="primary-btn">Leave a Review</button>
+        </div>
+
+        <h4 class="mt-5 mb-4 text-center fw-bold">Similar Products</h4>
+        <div class="d-flex justify-content-start mt-3">
+            <?php display_products();?>
+        </div>
+    </div>
+<?php include('footer.php'); 
+
+function display_products() {
+    for($i=1;$i<=4;$i++) {
+        echo '
+        <div class="col-md-3 gap col-sm-4 p-2 col-6">
+            <div class="card">
+                <a href="product-details.php?id=1">
+                    <div class="product-image">
+                        <img class="img-thumbnail p-4" src="img/products/15Plus.jpg" alt="Card image cap">
+                    </div>
+                </a>
+                <div class="card-body product-body px-3 ">
+                    <h6 class="card-title d-flex justify-content-center">Phone</h6>
+                    <div class="d-flex justify-content-center align-items-center flex-column mb-2 w-100">
+                            <span class="shop-price">₹1,20,000.00</span>
+                            <span class="striked-price">₹1,50,000.00</span>
+                    </div>
+                    <div class="rating-section mb-2 d-flex justify-content-center">
+                        <div class="ratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="review-count ps-1">(95)</div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-around ">
+                        <a class="order-link cart-btn flex-grow-1" href="cart.php">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        ';
+    }
+}
+
+function display_review(){
+    for($i=1;$i<=4;$i++)
+    {
+        echo '
+        <div class="col-sm-6 card mb-4">
+            <div class="card-body review-card ">
+                <h5 class="card-title">John Doe</h5>
+                <h6 class="card-subtitle mb-2 text-warning">★★★★☆</h6>
+                <p class="card-text">This product is really fresh and tastes great! Will definitely buy again.</p>
+                <p class="text-muted mb-0"><small>Posted on August 19, 2024</small></p>
+            </div>
+        </div>';
+    }
+}
+?>

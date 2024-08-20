@@ -642,9 +642,26 @@ input[type="submit"], button {
 
 .product-image {
     position: relative;
-    overflow: hidden; /* Ensure child elements don't overflow */
+    overflow: hidden;
 }
-
+#filter-section input{
+    margin-bottom:12px;
+}
+.not-link{
+    text-decoration: none;
+}
+.not-link:hover{
+    color:white;
+}
+#filter-section h6{
+    margin: 0xp 18px 0px 0px;
+    background-color: gainsboro;
+    padding:5px;
+    width: 100%;
+}
+#filter-section i{
+    color:orange;
+}
 .product-image img {
     width: 100%;
     height: auto; /* Adjust image height */
@@ -655,7 +672,7 @@ input[type="submit"], button {
     transform: scale(1.1); /* Optional: zoom effect on hover */
 }
 
-.product-body .price {
+.product-body .price ,.shop-price{
     color: var(--primary);
     margin-top: 4px;
     font-size: 16px;

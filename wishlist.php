@@ -3,45 +3,30 @@
         <p class="my-5"><a href="index.php" class="text-decoration-none dim link">Home /</a> Wishlist</p>
         <!-- table start -->
         <div class="row font-bold bg-light">
-            <div class="col-4">
-                Product
+            <div class="col-2">
+                Product Image
             </div>
-            <div class="col-3 text-center">Price</div>
-            <!-- <div class="col-2 ">
-                Quantity
-            </div> -->
-            <div class="col-3 text-center">Subtotal</div>
+            <div class="col-3">
+                Product Name
+            </div>
+            <div class="col-2 text-center">Price</div>
+            <div class="col-2 text-center">Subtotal</div>
+            <div class="col-3 text-center">Actions</div>
         </div>
 
         <div class="row mb-2">
-            <div class="col-4">
+            <div class="col-2">
                 <img src="img/products/phone.png" alt="Phone image" class="image-item d-inline-block">
+            </div>
+            <div class="col-3">
                 <div class="d-inline-block">Phone</div>
             </div>
-            <div class="col-3 text-center">₹100.00</div>
-            <div class="col-2 ">
-                <!-- <div class="d-flex qty-mod">
-                    <button class="number-button qty-minus">-</button>
-                    <input type="number" class="qty" name="qty" id="" value="3">
-                    <button class="number-button qty-plus">+</button>
-                </div> -->
+            <div class="col-2 text-center">₹100.00</div>
+            <div class="col-2 text-center">₹300.00</div>
+            <div class="col-3 d-flex">
+                <a class="primary-btn not-link me-1">Add to cart</a>
+                <a class="primary-btn not-link ">Remove</a>
             </div>
-            <div class="col-3 text-center">₹300.00</div>
-        </div>
-        <div class="row mb-2">
-            <div class="col-4">
-                <img src="img/products/phone.png" alt="Phone image" class="image-item d-inline-block">
-                <div class="d-inline-block">Phone 2</div>
-            </div>
-            <div class="col-3 text-center">₹200.00</div>
-            <div class="col-2">
-                <!-- <div class="d-flex qty-mod">
-                    <button class="number-button qty-minus">-</button>
-                    <input type="number" name="" id="" value="3" class="text-center">
-                    <button class="number-button qty-plus">+</button>
-                </div> -->
-            </div>
-            <div class="col-3 text-center">₹600.00</div>
         </div>
     </div>
     <div class="container mb-5">
