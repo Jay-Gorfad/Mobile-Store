@@ -52,9 +52,9 @@
             echo '
             <div class="col-md-3 gap col-sm-4 p-2 col-6">
                 <div class="card">
-                    <div class="product-image">
+                    <a href="product-details.php"><div class="product-image">
                         <img class="img-thumbnail p-4" src="img/products/15Plus.jpg" alt="Card image cap">
-                    </div>
+                    </div><a/>
                     <div class="card-body product-body px-3 ">
                         <h6 class="card-title d-flex justify-content-center">Phone</h6>
                         <div class="d-flex justify-content-center align-items-end mb-2 w-100">
@@ -90,10 +90,10 @@
             echo '
             <div class=" col-md-3 gap col-sm-4 p-2 col-6">
                 <div class="card">
-                    <div class="product-image">
+                    <a href="product-details.php"><div class="product-image">
                         <img class="img-thumbnail p-4" src="img/products/15Plus.jpg" alt="Card image cap">
                         <!--<button class=" primary-btn">Add to cart</button>-->
-                    </div>
+                    </div></a>
                     <div class="card-body product-body px-3">
                         <h6 class="card-title">Phone</h6>
                         <div class="rating-section">
