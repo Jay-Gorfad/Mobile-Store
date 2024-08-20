@@ -2,7 +2,8 @@
         <div class="row d-flex justify-content-around align-items-center gap-5 my-4" bis_skin_checked="1">
             <div class="col-6 col-md-2 d-flex justify-content-center align-items-center" bis_skin_checked="1">
                 <div class="logo">
-                <a href="index.php" class="nav-link p-0 text-body-secondary fw-bolder fs-1 text">Mobile Shop</a>
+                <a href="index.php" class="nav-link p-0 text-body-secondary fw-bolder fs-1 text">MobiTrendz</a>
+                <p class="nav-link p-0 text-body-secondary">Swipe, Shop, Shine</p> 
                 </div>
             </div>
 

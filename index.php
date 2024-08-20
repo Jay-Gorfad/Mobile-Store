@@ -59,8 +59,8 @@
                         <h6 class="card-title d-flex justify-content-center">Phone</h6>
                         <div class="d-flex justify-content-center align-items-end mb-2 w-100">
                             <div>
-                                <span class="price">₹100.00</span>
-                                <span class="striked-price">₹150.00</span>
+                                <span class="price">₹1,00,000.00</span>
+                                <span class="striked-price">₹1,50,000.00</span>
                             </div>
                         </div>
                         <div class="rating-section mb-2 d-flex justify-content-center">
@@ -108,8 +108,8 @@
                         </div>
                         <div class="d-flex justify-content-between align-items-end mb-2">
                             <div>
-                                <span class="price">₹100.00</span>
-                                <span class="striked-price">₹150.00</span>
+                                <span class="price">₹1,00,000.00</span>
+                                <span class="striked-price">₹1,50,000.00</span>
                             </div>
                         </div>
                         <div class="sold">Sold: 20/50</div>
