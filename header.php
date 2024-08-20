@@ -33,8 +33,14 @@
                     </li>
                 </ul>
                 <form class="d-flex justify-content-end font-bold">
+                <div class="search d-flex justify-content-center align-items-center ">
+                    <input class="search-input" type="search" placeholder="Search for items..." size="25" >
+                    <button class="primary-btn me-3 search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                <div class="log-reg d-flex justify-content-center align-items-center">
                     <a class="primary-btn me-2  checkout-link" href="register.php">Register</a>
                     <a class="checkout-link  primary-btn" href="login.php">Login</a>
+                </div>
                 </form>
 
             </div>

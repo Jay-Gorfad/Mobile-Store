@@ -1040,3 +1040,13 @@ input[type="submit"], button {
 .hover{
     background-color: var(--hover);
 }
+
+.search-input{
+    border-radius: 3px 0px 0px 3px;
+    padding:8px;
+    height:45px;
+    border:none;
+    background-color: var(--form-bg);
+    font-size:15px;
+    font-weight: 300;
+}
