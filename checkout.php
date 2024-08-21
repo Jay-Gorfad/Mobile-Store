@@ -79,17 +79,17 @@
                     <div class="price">₹40,100.00</div>
                 </div>
                 <div class="mt-2">
-                    <div class="mb-3">
+                    <!-- <div class="mb-3">
                         <input type="radio" name="payment-choice" id="paymentBank">
                         <label for="paymentBank" class="ms-1 form-label m-0">Bank</label>
-                    </div>
-                    <div class="mb-3">
+                    </div> -->
+                    <!-- <div class="mb-3">
                         <input type="radio" name="payment-choice" id="paymentCOD">
                         <label for="paymentCOD" class="ms-1 form-label m-0">Cash on Delivery</label>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="d-flex justify-content-end">
-                    <input type="submit" value="Place order" class="btn-msg mt-2">
+                    <input type="submit" value="Pay Now" class="btn-msg mt-2">
                 </div>
             </div>
         </div>
