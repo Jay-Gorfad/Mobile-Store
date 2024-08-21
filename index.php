@@ -16,7 +16,7 @@
         <div class="row justify-content-start pt-3">
             <?php display_products();?>
         </div>
-        <div class="row mt-5">
+        <!-- <div class="row mt-5">
             <div class="col-md-6 col-12 ps-2 pe-2">
                 <div class="border ms-0 banner-1">
                     <p class="label-yellow">Free delivery</p>
@@ -33,7 +33,7 @@
                     <button class="primary-btn">Order Now <i class='fas fa-arrow-right ms-2'></i></button>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="d-flex justify-content-between align-items-center featured-products mt-5">
             <div class="d-flex align-items-center gap-5">
                 <h4 >Latest Released</h4>
