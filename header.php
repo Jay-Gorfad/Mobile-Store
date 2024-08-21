@@ -29,6 +29,9 @@
                         <a class="nav-link  <?php echo $title=="Contact"?"active":"";?>" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link  <?php echo $title=="About"?"active":"";?>" href="about.php">About</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link  <?php echo $title=="Orders"?"active":"";?>" href="order-history.php">Orders</a>
                     </li>
                 </ul>

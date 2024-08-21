@@ -9,7 +9,7 @@
         <div class="row">
             <!-- Product Image -->
             <div class="col-md-5 col-sm-12">
-                <img src="img/products/phone.png" alt="Product image" class="img-thumbnail p-3 w-100">
+                <img src="img/products/phone.png" alt="Product image" class="img-thumbnail p-3 w-100 h-100">
             </div>
 
             <!-- Product Details -->

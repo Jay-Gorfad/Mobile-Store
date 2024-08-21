@@ -16,7 +16,7 @@
         <div class="row justify-content-start pt-3">
             <?php display_products();?>
         </div>
-        <div class="row mt-5">
+        <!-- <div class="row mt-5">
             <div class="col-md-6 col-12 ps-2 pe-2">
                 <div class="border ms-0 banner-1">
                     <p class="label-yellow">Free delivery</p>
@@ -33,7 +33,7 @@
                     <button class="primary-btn">Order Now <i class='fas fa-arrow-right ms-2'></i></button>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="d-flex justify-content-between align-items-center featured-products mt-5">
             <div class="d-flex align-items-center gap-5">
                 <h4 >Latest Released</h4>
@@ -75,6 +75,7 @@
                         </div>
                         <div class="d-flex align-items-center justify-content-around ">
                             <a class="order-link cart-btn flex-grow-1" href="cart.php">Add to cart</a>
+                            <div class="like"><i class="fa-regular fa-eye"></i></div>
                         </div>
                     </div>
                 </div>
@@ -108,8 +109,16 @@
                             </div>
                             <div class="review-count ps-1">(95)</div>
                         </div>
-                        <div class="d-flex align-items-center justify-content-around ">
-                            <a class="order-link cart-btn flex-grow-1" href="cart.php">Add to cart</a>
+                        <div class="d-flex justify-content-between align-items-end mb-2">
+                            <div>
+                                <span class="price">₹1,00,000.00</span>
+                                <span class="striked-price">₹1,50,000.00</span>
+                            </div>
+                        </div>
+                        <div class="sold">Sold: 20/50</div>
+                        <div class="d-flex align-items-center">
+                            <div class="like me-2"><i class="fa-regular fa-heart"></i></div>
+                            <a class=" order-link d-block cart-btn  flex-grow-1" href="cart.php"><i class="fa-solid fa-cart-shopping pe-2"></i>Add to cart</a>
                         </div>
                     </div>
                 </div>
