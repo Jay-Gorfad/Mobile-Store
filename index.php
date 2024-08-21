@@ -74,9 +74,9 @@
                             <div class="review-count ps-1">(95)</div>
                         </div>
                         <div class="d-flex align-items-center justify-content-around ">
-                            <div class="like"><i class="fa-regular fa-heart"></i></div>
+                           <a href="wishlist.php?id=1" class="order-link"> <div class="like "><i class="fa-regular fa-heart"></i></div></a>
                             <a class="order-link cart-btn flex-grow-1" href="cart.php">Add to cart</a>
-                            <div class="like"><i class="fa-regular fa-eye"></i></div>
+                            <a href="product-details.php?id=1" class="order-link"><div class="like"><i class="fa-regular fa-eye"></i></div></a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="sold">Sold: 20/50</div>
                         <div class="d-flex align-items-center">
-                            <div class="like me-2"><i class="fa-regular fa-heart"></i></div>
+                            <a href="wishlist.php?id=1" class="order-link"><div class="like me-2"><i class="fa-regular fa-heart"></i></div></a>
                             <a class=" order-link d-block cart-btn  flex-grow-1" href="cart.php"><i class="fa-solid fa-cart-shopping pe-2"></i>Add to cart</a>
                         </div>
                     </div>
