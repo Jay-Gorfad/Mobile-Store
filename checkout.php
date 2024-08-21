@@ -15,17 +15,17 @@
                         <div class="row gx-2 gy-3">
                             <div class="col-12 col-sm-6">
                                 <label for="billingFirstName" class="form-label">First Name<span class="required">*</label>
-                                <input type="text" id="billingFirstName" class="w-100" required>
+                                <input type="text" id="billingFirstName" class="w-100" >
                                 <p id="billingFirstNameError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-6">
                                 <label for="billingLastName" class="form-label">Last Name<span class="required">*</span></label>
-                                <input type="text" id="billingLastName" class="w-100" required>
+                                <input type="text" id="billingLastName" class="w-100" >
                                 <p id="billingLastNameError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-12">
                                 <label for="billingAddress" class="form-label">Street Address<span class="required">*</span></label>
-                                <textarea id="billingAddress" class="w-100" rows="2" required></textarea>
+                                <textarea id="billingAddress" class="w-100" rows="2" ></textarea>
                                 <p id="billingAddressError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-12">
@@ -35,22 +35,22 @@
                             </div>
                             <div class="col-12 col-sm-6">
                                 <label for="billingCity" class="form-label">City<span class="required">*</span></label>
-                                <input type="text" id="billingCity" class="w-100" required>
+                                <input type="text" id="billingCity" class="w-100" >
                                 <p id="billingCityError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-6">
                                 <label for="billingState" class="form-label">State<span class="required">*</span></label>
-                                <input type="text" id="billingState" class="w-100" required>
+                                <input type="text" id="billingState" class="w-100" >
                                 <p id="billingStateError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-6">
                                 <label for="billingPinCode" class="form-label">Pin code<span class="required">*</span></label>
-                                <input type="text" id="billingPinCode" class="w-100" required>
+                                <input type="text" id="billingPinCode" class="w-100" >
                                 <p id="billingPinCodeError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-6">
                                 <label for="billingPhone" class="form-label">Phone<span class="required">*</span></label>
-                                <input type="text" id="billingPhone" class="w-100" required>
+                                <input type="text" id="billingPhone" class="w-100" >
                                 <p id="billingPhoneError" class="error"></p>
                             </div>
                             <div class="col-12">

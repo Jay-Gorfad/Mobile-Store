@@ -15,31 +15,40 @@
             </div>
         </div>
 
-            <div class="col-12  col-md-8  p-2">
-                <div class="shadow-sm p-4 row">
-                    <form id="contactForm" action="" onsubmit="return contactFormValidation()" class="col-12">
-                        <div class="flex form">
-                            <input type="text" id="contactName" placeholder="Your First Name*" class="flex-item">
-                            <p id="contactNameError" class="error"></p>
-                             <input type="text" id="contactName2" placeholder="Your Last Name*" class="flex-item">
-                             <p id="contactName2Error" class="error"></p> 
-                        </div>
-                        <div class="flex form">
-                            <input type="text" id="contactEmail" placeholder="Your Email*" class="flex-item">
-                            <p id="contactEmailError" class="error"></p>
-                            <input type="text" id="contactPhone" placeholder="Your Phone*" class="flex-item">
-                            <p id="contactPhoneError" class="error"></p>
-                        </div>
-                        <div class="flex">
-                            <textarea name="message" id="contactMessage" class="flex-item"  rows="7" placeholder="Your Message*"></textarea>
-                            <p id="contactMessageError" class="error "></p>
-                        </div>
-                        <div class="d-flex justify-content-end">
-                            <input type="submit" value="Send Message" class="btn-msg mt-2">
-                        </div>
-                    </form>
+        <div class="col-12 col-md-8 p-2">
+    <div class="shadow-sm p-4">
+        <form id="contactForm" onsubmit="return contactFormValidation()">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="text" id="contactName" placeholder="Your First Name*" class="form-control">
+                    <p id="contactNameError" class="text-danger small mt-1"></p>
                 </div>
-            </div> 
+                <div class="col-md-6">
+                    <input type="text" id="contactName2" placeholder="Your Last Name*" class="form-control">
+                    <p id="contactName2Error" class="text-danger small mt-1"></p>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="text" id="contactEmail" placeholder="Your Email*" class="form-control">
+                    <p id="contactEmailError" class="text-danger small mt-1"></p>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="contactPhone" placeholder="Your Phone*" class="form-control">
+                    <p id="contactPhoneError" class="text-danger small mt-1"></p>
+                </div>
+            </div>
+            <div class="mb-3">
+                <textarea name="message" id="contactMessage" class="form-control" rows="7" placeholder="Your Message*"></textarea>
+                <p id="contactMessageError" class="text-danger small mt-1"></p>
+            </div>
+            <div class="d-flex justify-content-end">
+                <input type="submit" value="Send Message" class="btn btn-primary mt-2">
+            </div>
+        </form>
+    </div>
+</div>
+
         </div>
     </div>
 <?php include('footer.php') ?>
