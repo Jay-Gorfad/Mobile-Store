@@ -2,7 +2,7 @@
 <div class="container sitemap">
     <p class="mt-1 sitemap"><a href="index.php" class="text-decoration-none dim link">Home /</a> Shop</p>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6">
             <div class="border p-3" id="filter-section">
                 <div class="col-12 mb-3">
                     <h6 class="mb-2"><span>Customer Ratings</span></h6>
@@ -158,7 +158,7 @@
             </div>
 
         </div>
-        <div class="col-md-9">
+        <div class="col-lg-9 col-md-8 col-sm-7 col-6">
             <div class="row justify-content-start">
                 <?php display_products(); ?>
             </div>
@@ -171,7 +171,7 @@
     function display_products() {
         for($i=1;$i<=8;$i++) {
             echo '
-            <div class="col-md-3 gap col-sm-4 p-2 col-6">
+            <div class="col-lg-3 col-md-4 gap p-2 col-sm-6 col-12">
                 <div class="card">
                     <a href="product-details.php?id=1">
                         <div class="product-image">

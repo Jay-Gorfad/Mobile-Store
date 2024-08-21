@@ -50,18 +50,18 @@
     function display_products() {
         for($i=1;$i<=8;$i++) {
             echo '
-            <div class="col-md-3 gap col-sm-4 p-2 col-6">
+            <div class="col-lg-3 col-md-4 gap p-2 col-6">
                 <div class="card">
-                    <a href="product-details.php"><div class="product-image">
-                        <img class="img-thumbnail p-4" src="img/products/15Plus.jpg" alt="Card image cap">
-                    </div><a/>
+                    <a href="product-details.php?id=1">
+                        <div class="product-image">
+                            <img class="img-thumbnail p-4" src="img/products/15Plus.jpg" alt="Card image cap">
+                        </div>
+                    </a>
                     <div class="card-body product-body px-3 ">
                         <h6 class="card-title d-flex justify-content-center">Phone</h6>
-                        <div class="d-flex justify-content-center align-items-end mb-2 w-100">
-                            <div>
-                                <span class="price">₹1,00,000.00</span>
+                        <div class="d-flex justify-content-center align-items-center flex-column mb-2 w-100">
+                                <span class="shop-price">₹1,20,000.00</span>
                                 <span class="striked-price">₹1,50,000.00</span>
-                            </div>
                         </div>
                         <div class="rating-section mb-2 d-flex justify-content-center">
                             <div class="ratings">
@@ -74,9 +74,7 @@
                             <div class="review-count ps-1">(95)</div>
                         </div>
                         <div class="d-flex align-items-center justify-content-around ">
-                            <div class="like"><i class="fa-regular fa-heart"></i></div>
                             <a class="order-link cart-btn flex-grow-1" href="cart.php">Add to cart</a>
-                            <div class="like"><i class="fa-regular fa-eye"></i></div>
                         </div>
                     </div>
                 </div>
@@ -84,19 +82,23 @@
             ';
         }
     }
-    function display_products2(){
-        for($i=1;$i<=4;$i++)
-        {
+    function display_products2() {
+        for($i=1;$i<=8;$i++) {
             echo '
-            <div class=" col-md-3 gap col-sm-4 p-2 col-6">
+            <div class="col-lg-3 col-md-4 gap p-2 col-6">
                 <div class="card">
-                    <a href="product-details.php"><div class="product-image">
-                        <img class="img-thumbnail p-4" src="img/products/15Plus.jpg" alt="Card image cap">
-                        <!--<button class=" primary-btn">Add to cart</button>-->
-                    </div></a>
-                    <div class="card-body product-body px-3">
-                        <h6 class="card-title">Phone</h6>
-                        <div class="rating-section">
+                    <a href="product-details.php?id=1">
+                        <div class="product-image">
+                            <img class="img-thumbnail p-4" src="img/products/15Plus.jpg" alt="Card image cap">
+                        </div>
+                    </a>
+                    <div class="card-body product-body px-3 ">
+                        <h6 class="card-title d-flex justify-content-center">Phone</h6>
+                        <div class="d-flex justify-content-center align-items-center flex-column mb-2 w-100">
+                                <span class="shop-price">₹1,20,000.00</span>
+                                <span class="striked-price">₹1,50,000.00</span>
+                        </div>
+                        <div class="rating-section mb-2 d-flex justify-content-center">
                             <div class="ratings">
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
@@ -106,16 +108,8 @@
                             </div>
                             <div class="review-count ps-1">(95)</div>
                         </div>
-                        <div class="d-flex justify-content-between align-items-end mb-2">
-                            <div>
-                                <span class="price">₹1,00,000.00</span>
-                                <span class="striked-price">₹1,50,000.00</span>
-                            </div>
-                        </div>
-                        <div class="sold">Sold: 20/50</div>
-                        <div class="d-flex align-items-center">
-                            <div class="like me-2"><i class="fa-regular fa-heart"></i></div>
-                            <a class=" order-link d-block cart-btn  flex-grow-1" href="cart.php"><i class="fa-solid fa-cart-shopping pe-2"></i>Add to cart</a>
+                        <div class="d-flex align-items-center justify-content-around ">
+                            <a class="order-link cart-btn flex-grow-1" href="cart.php">Add to cart</a>
                         </div>
                     </div>
                 </div>
@@ -123,4 +117,5 @@
             ';
         }
     }
+    
 ?>
