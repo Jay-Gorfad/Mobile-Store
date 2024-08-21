@@ -17,17 +17,22 @@
 
             <div class="col-12  col-md-8  p-2">
                 <div class="shadow-sm p-4 row">
-                    <form action="" class="col-12">
+                    <form id="contactForm" action="" onsubmit="return contactFormValidation()" class="col-12">
                         <div class="flex form">
-                            <input type="text" placeholder="Your First Name*" class="flex-item">
-                            <input type="text" placeholder="Your Last Name*" class="flex-item">
+                            <input type="text" id="contactName" placeholder="Your First Name*" class="flex-item">
+                            <p id="contactNameError" class="error"></p>
+                             <input type="text" id="contactName2" placeholder="Your Last Name*" class="flex-item">
+                             <p id="contactName2Error" class="error"></p> 
                         </div>
                         <div class="flex form">
-                            <input type="text" placeholder="Your Email*" class="flex-item">
-                            <input type="text" placeholder="Your Phone*" class="flex-item">
+                            <input type="text" id="contactEmail" placeholder="Your Email*" class="flex-item">
+                            <p id="contactEmailError" class="error"></p>
+                            <input type="text" id="contactPhone" placeholder="Your Phone*" class="flex-item">
+                            <p id="contactPhoneError" class="error"></p>
                         </div>
                         <div class="flex">
                             <textarea name="message" id="contactMessage" class="flex-item"  rows="7" placeholder="Your Message*"></textarea>
+                            <p id="contactMessageError" class="error "></p>
                         </div>
                         <div class="d-flex justify-content-end">
                             <input type="submit" value="Send Message" class="btn-msg mt-2">

@@ -237,3 +237,75 @@ function validateRegistrationForm() {
 
     return isValid;
 }
+
+function contactFormValidation() {
+    let contactName = document.getElementById('contactName');
+    let contactEmail = document.getElementById('contactEmail');
+    let contactPhone = document.getElementById('contactPhone');
+    let contactMessage = document.getElementById('contactMessage');
+
+    let contactNameError = document.getElementById('contactNameError');
+    let contactEmailError = document.getElementById('contactEmailError');
+    let contactPhoneError = document.getElementById('contactPhoneError');
+    let contactMessageError = document.getElementById('contactMessageError');
+
+    let isValid = true;
+
+    if (contactName.value.trim() === '') {
+        contactNameError.style.color="red";
+        contactNameError.innerText = 'First Name is required';
+        isValid = false;
+    } else if (/\d/.test(contactName.value)) {
+        contactNameError.style.color="red";
+        contactNameError.innerText = 'First Name should not contain numbers';
+        isValid = false;
+    } else {
+        contactNameError.innerText = '';
+    }
+
+    if (contactName2.value.trim() === '') {
+        contactName2Error.style.color="red";
+        contactName2Error.innerText = 'Last Name is required';
+        isValid = false;
+    } else if (/\d/.test(contactName2.value)) {
+        contactName2Error.style.color="red";
+        contactName2Error.innerText = 'Last Name should not contain numbers';
+        isValid = false;
+    } else {
+        contactName2Error.innerText = '';
+    }
+
+    if (contactEmail.value.trim() === '') {
+        contactEmailError.style.color="red";
+        contactEmailError.innerText = 'Email is required';
+        isValid = false;
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactEmail.value)) {
+        contactEmailError.style.color="red";
+        contactEmailError.innerText = 'Invalid email format';
+        isValid = false;
+    } else {
+        contactEmailError.innerText = '';
+    }
+
+    if (contactPhone.value.trim() === '') {
+        contactPhoneError.style.color="red";
+        contactPhoneError.innerText = 'Phone number is required';
+        isValid = false;
+    } else if (!/^\d{10}$/.test(contactPhone.value)) {
+        contactPhoneError.style.color="red";
+        contactPhoneError.innerText = 'Phone number must be 10 digits';
+        isValid = false;
+    } else {
+        contactPhoneError.innerText = '';
+    }
+
+    if (contactMessage.value.trim() === '') {
+        contactMessageError.style.color="red";
+        contactMessageError.innerText = 'Message is required';
+        isValid = false;
+    } else {
+        contactMessageError.innerText = '';
+    }
+
+    return isValid;
+}
