@@ -11,39 +11,47 @@
         <div class="row g-5">
             <div class="col-md-6">
                 <div class="mb-4">
-                    <form action="" class="billing-details form">
+                    <form action="order-success.php" id="billingForm" class="billing-details form" onsubmit="return validateForms();">
                         <div class="row gx-2 gy-3">
                             <div class="col-12 col-sm-6">
-                                <label for="firstName" class="form-label">First Name<span class="required">*</span></label>
-                                <input type="text" id="firstName" class="w-100" required>
+                                <label for="billingFirstName" class="form-label">First Name<span class="required">*</label>
+                                <input type="text" id="billingFirstName" class="w-100" required>
+                                <p id="billingFirstNameError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <label for="lastName" class="form-label">Last Name<span class="required">*</span></label>
-                                <input type="text" id="lastName" class="w-100" required>
+                                <label for="billingLastName" class="form-label">Last Name<span class="required">*</span></label>
+                                <input type="text" id="billingLastName" class="w-100" required>
+                                <p id="billingLastNameError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-12">
-                                <label for="streetAddress" class="form-label">Street Address<span class="required">*</span></label>
-                                <textarea id="streetAddress" class="w-100" rows="2" required></textarea>
+                                <label for="billingAddress" class="form-label">Street Address<span class="required">*</span></label>
+                                <textarea id="billingAddress" class="w-100" rows="2" required></textarea>
+                                <p id="billingAddressError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-12">
-                                <label for="apartment" class="form-label">Apartment, Floor, etc. (Optional)</label>
-                                <textarea id="apartment" class="w-100" rows="2"></textarea>
+                                <label for="billingApartment" class="form-label">Apartment, Floor, etc. (Optional)</label>
+                                <textarea id="billingApartment" class="w-100" rows="2"></textarea>
+
                             </div>
                             <div class="col-12 col-sm-6">
-                                <label for="city" class="form-label">City<span class="required">*</span></label>
-                                <input type="text" id="city" class="w-100" required>
+                                <label for="billingCity" class="form-label">City<span class="required">*</span></label>
+                                <input type="text" id="billingCity" class="w-100" required>
+                                <p id="billingCityError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <label for="state" class="form-label">State<span class="required">*</span></label>
-                                <input type="text" id="state" class="w-100" required>
+                                <label for="billingState" class="form-label">State<span class="required">*</span></label>
+                                <input type="text" id="billingState" class="w-100" required>
+                                <p id="billingStateError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <label for="pinCode" class="form-label">Pin code<span class="required">*</span></label>
-                                <input type="text" id="pinCode" class="w-100" required>
+                                <label for="billingPinCode" class="form-label">Pin code<span class="required">*</span></label>
+                                <input type="text" id="billingPinCode" class="w-100" required>
+                                <p id="billingPinCodeError" class="error"></p>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <label for="phone" class="form-label">Phone<span class="required">*</span></label>
-                                <input type="text" id="phone" class="w-100" required>
+                                <label for="billingPhone" class="form-label">Phone<span class="required">*</span></label>
+                                <input type="text" id="billingPhone" class="w-100" required>
+                                <p id="billingPhoneError" class="error"></p>
                             </div>
                             <div class="col-12">
                                 <div>
@@ -52,7 +60,7 @@
                                 </div>
                             </div>
                         </div>
-                    </form>
+                    
                 </div>
                 <div class="mt-4 line mb-4"></div>
             </div>
@@ -93,5 +101,7 @@
                 </div>
             </div>
         </div>
+        </form>
     </div>
+    
 <?php include('footer.php'); ?>
