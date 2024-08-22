@@ -108,13 +108,8 @@
                             </div>
                             <div class="review-count ps-1">(95)</div>
                         </div>
-                        <div class="d-flex justify-content-between align-items-end mb-2">
-                            <div>
-                                <span class="price">₹1,00,000.00</span>
-                                <span class="striked-price">₹1,50,000.00</span>
-                            </div>
-                        </div>
-                        <div class="sold">Sold: 20/50</div>
+                        
+                        
                         <div class="d-flex align-items-center">
                             <a class=" order-link d-block cart-btn  flex-grow-1" href="cart.php"><i class="fa-solid fa-cart-shopping pe-2"></i>Add to cart</a>
                         </div>

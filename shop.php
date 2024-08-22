@@ -185,7 +185,7 @@
                                 <span class="striked-price">₹1,50,000.00</span>
                         </div>
                         <div class="rating-section mb-2 d-flex justify-content-center">
-                            <div class="ratings">
+                            <div class="ratings d-flex">
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
